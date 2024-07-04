@@ -42,6 +42,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "FastEndpoints": {
+              "target": "Package",
+              "version": "[5.27.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -108,6 +114,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "FastEndpoints": {
+              "target": "Package",
+              "version": "[5.27.0, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[8.0.4, )"

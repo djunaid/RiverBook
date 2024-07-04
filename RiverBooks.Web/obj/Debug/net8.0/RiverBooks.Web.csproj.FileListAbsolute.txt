@@ -33,3 +33,8 @@
 /Users/danishj/Desktop/RiverBook/RiverBooks.Web/obj/Debug/net8.0/ref/RiverBooks.Web.dll
 /Users/danishj/Desktop/RiverBook/RiverBooks.Web/bin/Debug/net8.0/RiverBooks.Books.dll
 /Users/danishj/Desktop/RiverBook/RiverBooks.Web/bin/Debug/net8.0/RiverBooks.Books.pdb
+/Users/danishj/Desktop/RiverBook/RiverBooks.Web/obj/Debug/net8.0/RiverBooks.Web.sourcelink.json
+/Users/danishj/Desktop/RiverBook/RiverBooks.Web/bin/Debug/net8.0/FastEndpoints.dll
+/Users/danishj/Desktop/RiverBook/RiverBooks.Web/bin/Debug/net8.0/FastEndpoints.Attributes.dll
+/Users/danishj/Desktop/RiverBook/RiverBooks.Web/bin/Debug/net8.0/FastEndpoints.Messaging.Core.dll
+/Users/danishj/Desktop/RiverBook/RiverBooks.Web/bin/Debug/net8.0/FluentValidation.dll

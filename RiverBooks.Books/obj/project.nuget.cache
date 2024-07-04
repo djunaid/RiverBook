@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "eHiaNL9OpVytzdlCf30FpMSn13hmATYfEaIS3uV1Q8tDaaGWYrjkkq1yxCDC9znGEiM+m6TpY+W2DHa0fH+8Xw==",
+  "dgSpecHash": "rXcmr3VDuPXMAZKqzT1LNq33Wlc0mRUVVwHqiU6T5rjIwo5tLRvkCbY2YHqMRb6GP5GzAavFH3XtaAyYJ4inBQ==",
   "success": true,
   "projectFilePath": "/Users/danishj/Desktop/RiverBook/RiverBooks.Books/RiverBooks.Books.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/danishj/.nuget/packages/fastendpoints/5.27.0/fastendpoints.5.27.0.nupkg.sha512",
+    "/Users/danishj/.nuget/packages/fastendpoints.attributes/5.27.0/fastendpoints.attributes.5.27.0.nupkg.sha512",
+    "/Users/danishj/.nuget/packages/fastendpoints.messaging.core/5.27.0/fastendpoints.messaging.core.5.27.0.nupkg.sha512",
+    "/Users/danishj/.nuget/packages/fluentvalidation/11.9.2/fluentvalidation.11.9.2.nupkg.sha512"
+  ],
   "logs": []
 }

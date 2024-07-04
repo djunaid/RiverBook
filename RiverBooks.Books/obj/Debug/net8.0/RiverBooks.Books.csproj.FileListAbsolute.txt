@@ -9,3 +9,5 @@
 /Users/danishj/Desktop/RiverBook/RiverBooks.Books/obj/Debug/net8.0/refint/RiverBooks.Books.dll
 /Users/danishj/Desktop/RiverBook/RiverBooks.Books/obj/Debug/net8.0/RiverBooks.Books.pdb
 /Users/danishj/Desktop/RiverBook/RiverBooks.Books/obj/Debug/net8.0/ref/RiverBooks.Books.dll
+/Users/danishj/Desktop/RiverBook/RiverBooks.Books/obj/Debug/net8.0/RiverBooks.Books.sourcelink.json
+/Users/danishj/Desktop/RiverBook/RiverBooks.Books/obj/Debug/net8.0/RiverBooks.Books.csproj.AssemblyReference.cache

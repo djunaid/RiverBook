@@ -1,9 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "FM/UQsmsRNgbdMnplUGINkV3bD+bPtFglhLW3L6ffJkZ2g1QPm63glJNlz4cp8te6drOl1np2f3KL6gp6/BMOg==",
+  "dgSpecHash": "YPRvEkc3lPFJ1ZFY/lZANpYQOhtZQtkcLj6rucQyYKiL1CLLbXa8bWIZ2asu2LH8ljPAEycfYp1RymlWo2k+zQ==",
   "success": true,
   "projectFilePath": "/Users/danishj/Desktop/RiverBook/RiverBooks.Web/RiverBooks.Web.csproj",
   "expectedPackageFiles": [
+    "/Users/danishj/.nuget/packages/fastendpoints/5.27.0/fastendpoints.5.27.0.nupkg.sha512",
+    "/Users/danishj/.nuget/packages/fastendpoints.attributes/5.27.0/fastendpoints.attributes.5.27.0.nupkg.sha512",
+    "/Users/danishj/.nuget/packages/fastendpoints.messaging.core/5.27.0/fastendpoints.messaging.core.5.27.0.nupkg.sha512",
+    "/Users/danishj/.nuget/packages/fluentvalidation/11.9.2/fluentvalidation.11.9.2.nupkg.sha512",
     "/Users/danishj/.nuget/packages/microsoft.aspnetcore.openapi/8.0.4/microsoft.aspnetcore.openapi.8.0.4.nupkg.sha512",
     "/Users/danishj/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "/Users/danishj/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
