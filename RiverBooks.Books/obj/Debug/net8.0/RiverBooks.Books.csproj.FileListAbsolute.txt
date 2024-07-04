@@ -1,0 +1,11 @@
+/Users/danishj/Desktop/RiverBook/RiverBooks.Books/bin/Debug/net8.0/RiverBooks.Books.deps.json
+/Users/danishj/Desktop/RiverBook/RiverBooks.Books/bin/Debug/net8.0/RiverBooks.Books.dll
+/Users/danishj/Desktop/RiverBook/RiverBooks.Books/bin/Debug/net8.0/RiverBooks.Books.pdb
+/Users/danishj/Desktop/RiverBook/RiverBooks.Books/obj/Debug/net8.0/RiverBooks.Books.GeneratedMSBuildEditorConfig.editorconfig
+/Users/danishj/Desktop/RiverBook/RiverBooks.Books/obj/Debug/net8.0/RiverBooks.Books.AssemblyInfoInputs.cache
+/Users/danishj/Desktop/RiverBook/RiverBooks.Books/obj/Debug/net8.0/RiverBooks.Books.AssemblyInfo.cs
+/Users/danishj/Desktop/RiverBook/RiverBooks.Books/obj/Debug/net8.0/RiverBooks.Books.csproj.CoreCompileInputs.cache
+/Users/danishj/Desktop/RiverBook/RiverBooks.Books/obj/Debug/net8.0/RiverBooks.Books.dll
+/Users/danishj/Desktop/RiverBook/RiverBooks.Books/obj/Debug/net8.0/refint/RiverBooks.Books.dll
+/Users/danishj/Desktop/RiverBook/RiverBooks.Books/obj/Debug/net8.0/RiverBooks.Books.pdb
+/Users/danishj/Desktop/RiverBook/RiverBooks.Books/obj/Debug/net8.0/ref/RiverBooks.Books.dll
