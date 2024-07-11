@@ -6,7 +6,55 @@ Accept: application/json
 
 ###
 
-
-GET {{RiverBooks.Web_HostAddress}}/api/books/
+@BookId=2c1597e8-ab67-4b88-ba67-04de4c5df8cd
+GET {{RiverBooks.Web_HostAddress}}/books/{{BookId}}
 Accept: application/json
 
+###
+POST {{RiverBooks.Web_HostAddress}}/book
+Accept: application/json
+Content-Type: application/json
+
+{
+      "title": "The Saga of Lich King",
+      "author": "Blizzard",
+      "price": 23.90
+}
+
+###
+DELETE {{RiverBooks.Web_HostAddress}}/books/2c1597e8-ab67-4b88-ba67-04de4c5df8cd
+Accept: application/json
+
+###
+POST {{RiverBooks.Web_HostAddress}}/books/4040756b-9770-46ad-923b-a5c524f4de85/pricehistory
+Accept: application/json
+Content-Type: application/json
+
+{
+      "id" : "4040756b-9770-46ad-923b-a5c524f4de85",
+      "price": -9.99
+}
+
+###
+POST {{RiverBooks.Web_HostAddress}}/users
+Accept: application/json
+Content-Type: application/json
+
+{
+      "email" : "danish@test.com",
+      "password" : "P@ssword1"
+}
+
+###
+
+POST {{RiverBooks.Web_HostAddress}}/users/login
+Accept: application/json
+Content-Type: application/json
+
+{
+      "email" : "danish@test.com",
+      "password" : "P@ssword1"
+}
+
+###
+@token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFbWFpbEFkZHJlc3MiOiJkYW5pc2hAdGVzdC5jb20iLCJuYmYiOjE3MjA2NzQ1NTIsImV4cCI6MTcyMDY3ODE1MiwiaWF0IjoxNzIwNjc0NTUyfQ.21cnLPlAvdMCYiALFXilB86uZboq5i2qg1qahXhGu3o

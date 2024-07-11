@@ -1,0 +1,13 @@
+/Users/danishj/Desktop/RiverBook/RiverBooks.Users/bin/Debug/net8.0/RiverBooks.Users.deps.json
+/Users/danishj/Desktop/RiverBook/RiverBooks.Users/bin/Debug/net8.0/RiverBooks.Users.dll
+/Users/danishj/Desktop/RiverBook/RiverBooks.Users/bin/Debug/net8.0/RiverBooks.Users.pdb
+/Users/danishj/Desktop/RiverBook/RiverBooks.Users/obj/Debug/net8.0/RiverBooks.Users.csproj.AssemblyReference.cache
+/Users/danishj/Desktop/RiverBook/RiverBooks.Users/obj/Debug/net8.0/RiverBooks.Users.GeneratedMSBuildEditorConfig.editorconfig
+/Users/danishj/Desktop/RiverBook/RiverBooks.Users/obj/Debug/net8.0/RiverBooks.Users.AssemblyInfoInputs.cache
+/Users/danishj/Desktop/RiverBook/RiverBooks.Users/obj/Debug/net8.0/RiverBooks.Users.AssemblyInfo.cs
+/Users/danishj/Desktop/RiverBook/RiverBooks.Users/obj/Debug/net8.0/RiverBooks.Users.csproj.CoreCompileInputs.cache
+/Users/danishj/Desktop/RiverBook/RiverBooks.Users/obj/Debug/net8.0/RiverBooks.Users.sourcelink.json
+/Users/danishj/Desktop/RiverBook/RiverBooks.Users/obj/Debug/net8.0/RiverBooks.Users.dll
+/Users/danishj/Desktop/RiverBook/RiverBooks.Users/obj/Debug/net8.0/refint/RiverBooks.Users.dll
+/Users/danishj/Desktop/RiverBook/RiverBooks.Users/obj/Debug/net8.0/RiverBooks.Users.pdb
+/Users/danishj/Desktop/RiverBook/RiverBooks.Users/obj/Debug/net8.0/ref/RiverBooks.Users.dll
