@@ -1,12 +1,12 @@
 @RiverBooks.Web_HostAddress = http://localhost:5160
 
 
-GET {{RiverBooks.Web_HostAddress}}/books/
+GET {{RiverBooks.Web_HostAddress}}/books
 Accept: application/json
 
 ###
 
-@BookId=2c1597e8-ab67-4b88-ba67-04de4c5df8cd
+@BookId=4040756b-9770-46ad-923b-a5c524f4de85
 GET {{RiverBooks.Web_HostAddress}}/books/{{BookId}}
 Accept: application/json
 
@@ -41,8 +41,9 @@ Accept: application/json
 Content-Type: application/json
 
 {
-      "email" : "danish@test.com",
-      "password" : "P@ssword1"
+      "email" : "jack.michael@test.com",
+      "password" : "P@ssword1",
+      "fullname" : "Jack Michael"
 }
 
 ###
@@ -58,3 +59,8 @@ Content-Type: application/json
 
 ###
 @token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFbWFpbEFkZHJlc3MiOiJkYW5pc2hAdGVzdC5jb20iLCJuYmYiOjE3MjA2NzQ1NTIsImV4cCI6MTcyMDY3ODE1MiwiaWF0IjoxNzIwNjc0NTUyfQ.21cnLPlAvdMCYiALFXilB86uZboq5i2qg1qahXhGu3o
+
+
+###
+GET {{RiverBooks.Web_HostAddress}}/users
+Accept: application/json

@@ -45,7 +45,7 @@
           "dependencies": {
             "Ardalis.GuardClauses": {
               "target": "Package",
-              "version": "[4.5.0, )"
+              "version": "[4.6.0, )"
             },
             "FastEndpoints": {
               "target": "Package",
@@ -133,7 +133,11 @@
           "dependencies": {
             "Ardalis.GuardClauses": {
               "target": "Package",
-              "version": "[4.6.0, )"
+              "version": "[4.5.0, )"
+            },
+            "Ardalis.Result": {
+              "target": "Package",
+              "version": "[9.1.0, )"
             },
             "FastEndpoints": {
               "target": "Package",
@@ -141,7 +145,7 @@
             },
             "FastEndpoints.Security": {
               "target": "Package",
-              "version": "[3.7.0, )"
+              "version": "[5.21.0, )"
             },
             "MediatR": {
               "target": "Package",
@@ -256,7 +260,7 @@
             },
             "FastEndpoints.Security": {
               "target": "Package",
-              "version": "[3.7.0, )"
+              "version": "[5.21.0, )"
             },
             "FastEndpoints.Swagger": {
               "target": "Package",

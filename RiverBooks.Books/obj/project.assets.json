@@ -2,15 +2,15 @@
   "version": 3,
   "targets": {
     "net8.0": {
-      "Ardalis.GuardClauses/4.5.0": {
+      "Ardalis.GuardClauses/4.6.0": {
         "type": "package",
         "compile": {
-          "lib/net7.0/Ardalis.GuardClauses.dll": {
+          "lib/net8.0/Ardalis.GuardClauses.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net7.0/Ardalis.GuardClauses.dll": {
+          "lib/net8.0/Ardalis.GuardClauses.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -1962,21 +1962,21 @@
     }
   },
   "libraries": {
-    "Ardalis.GuardClauses/4.5.0": {
-      "sha512": "9ajMCMD3gIWUsVb//ftJFsFm+TDvP3y05dVC1S9ANLP4Bo7V2xbCeQbTVomXR0mTYkX4mX6Lp3SPtdcKag4rZg==",
+    "Ardalis.GuardClauses/4.6.0": {
+      "sha512": "ckLr6V8tRXHu0kGVlen70sjXkZcbe6ZFknM3UDkeNzY75kXEe4Z5xru5weMU5IEAsuuqMKvVb7ikbUZ7JcHUSQ==",
       "type": "package",
-      "path": "ardalis.guardclauses/4.5.0",
+      "path": "ardalis.guardclauses/4.6.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE",
         "README.md",
-        "ardalis.guardclauses.4.5.0.nupkg.sha512",
+        "ardalis.guardclauses.4.6.0.nupkg.sha512",
         "ardalis.guardclauses.nuspec",
         "icon.png",
-        "lib/net7.0/Ardalis.GuardClauses.dll",
-        "lib/net7.0/Ardalis.GuardClauses.pdb",
-        "lib/net7.0/Ardalis.GuardClauses.xml",
+        "lib/net8.0/Ardalis.GuardClauses.dll",
+        "lib/net8.0/Ardalis.GuardClauses.pdb",
+        "lib/net8.0/Ardalis.GuardClauses.xml",
         "lib/netstandard2.0/Ardalis.GuardClauses.dll",
         "lib/netstandard2.0/Ardalis.GuardClauses.pdb",
         "lib/netstandard2.0/Ardalis.GuardClauses.xml",
@@ -6290,7 +6290,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "Ardalis.GuardClauses >= 4.5.0",
+      "Ardalis.GuardClauses >= 4.6.0",
       "FastEndpoints >= 5.27.0",
       "Microsoft.EntityFrameworkCore >= 8.0.6",
       "Microsoft.EntityFrameworkCore.Relational >= 8.0.6",
@@ -6343,7 +6343,7 @@
         "dependencies": {
           "Ardalis.GuardClauses": {
             "target": "Package",
-            "version": "[4.5.0, )"
+            "version": "[4.6.0, )"
           },
           "FastEndpoints": {
             "target": "Package",

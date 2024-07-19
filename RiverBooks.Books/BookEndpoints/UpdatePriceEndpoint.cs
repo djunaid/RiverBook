@@ -18,6 +18,6 @@ internal class UpdatePriceEndpoint(IBookService bookService) : Endpoint<UpdatePr
 
         var updatedBook = await _bookService.GetBookByIdAsync(req.Id);
 
-        await SendAsync(updatedBook);
+        await SendAsync(updatedBook!);
     }
 }

@@ -1,6 +1,4 @@
 ﻿using FastEndpoints;
-using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Mvc;
 
 namespace RiverBooks.Books;
 

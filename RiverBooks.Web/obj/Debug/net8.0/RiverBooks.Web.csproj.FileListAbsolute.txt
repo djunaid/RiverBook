@@ -153,3 +153,7 @@
 /Users/danishj/Desktop/RiverBook/RiverBooks.Web/bin/Debug/net8.0/NSwag.Generation.AspNetCore.dll
 /Users/danishj/Desktop/RiverBook/RiverBooks.Web/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll
 /Users/danishj/Desktop/RiverBook/RiverBooks.Web/bin/Debug/net8.0/YamlDotNet.dll
+/Users/danishj/Desktop/RiverBook/RiverBooks.Web/bin/Debug/net8.0/MediatR.dll
+/Users/danishj/Desktop/RiverBook/RiverBooks.Web/bin/Debug/net8.0/MediatR.Contracts.dll
+/Users/danishj/Desktop/RiverBook/RiverBooks.Web/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/danishj/Desktop/RiverBook/RiverBooks.Web/bin/Debug/net8.0/Ardalis.Result.dll

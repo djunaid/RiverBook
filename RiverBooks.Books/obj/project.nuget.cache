@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "jC4FVwgyxOgLI1eWE5Ehu0aB2T4C+gy93NraS+4dtag82aWo6wRZH/i/xiLysQ3DhR4Z7deyBAou7twpPfYIdg==",
+  "dgSpecHash": "/evvzBhkJl01r8M9RTU1q85bqhT89u7J18HHJbKmw0/5VgSXUaEGiGtqoc4KmazTIVl9G2B+Omh4TJQqvxIvjQ==",
   "success": true,
   "projectFilePath": "/Users/danishj/Desktop/RiverBook/RiverBooks.Books/RiverBooks.Books.csproj",
   "expectedPackageFiles": [
-    "/Users/danishj/.nuget/packages/ardalis.guardclauses/4.5.0/ardalis.guardclauses.4.5.0.nupkg.sha512",
+    "/Users/danishj/.nuget/packages/ardalis.guardclauses/4.6.0/ardalis.guardclauses.4.6.0.nupkg.sha512",
     "/Users/danishj/.nuget/packages/fastendpoints/5.27.0/fastendpoints.5.27.0.nupkg.sha512",
     "/Users/danishj/.nuget/packages/fastendpoints.attributes/5.27.0/fastendpoints.attributes.5.27.0.nupkg.sha512",
     "/Users/danishj/.nuget/packages/fastendpoints.messaging.core/5.27.0/fastendpoints.messaging.core.5.27.0.nupkg.sha512",

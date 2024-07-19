@@ -28,7 +28,7 @@ builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(mediatRAss
 
 // add service dependency for modules
 builder.Services.AddFastEndpoints()
-    .AddAuthenticationJWTBearer(builder.Configuration["Auth:JwtSecret"])
+    .AddJWTBearerAuth(builder.Configuration["Auth:JwtSecret"]!)
     .AddAuthorization()
     .SwaggerDocument();
 

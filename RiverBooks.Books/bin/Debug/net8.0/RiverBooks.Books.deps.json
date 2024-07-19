@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v8.0": {
       "RiverBooks.Books/1.0.0": {
         "dependencies": {
-          "Ardalis.GuardClauses": "4.5.0",
+          "Ardalis.GuardClauses": "4.6.0",
           "FastEndpoints": "5.27.0",
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "Microsoft.EntityFrameworkCore.Relational": "8.0.6",
@@ -20,11 +20,11 @@
           "RiverBooks.Books.dll": {}
         }
       },
-      "Ardalis.GuardClauses/4.5.0": {
+      "Ardalis.GuardClauses/4.6.0": {
         "runtime": {
-          "lib/net7.0/Ardalis.GuardClauses.dll": {
-            "assemblyVersion": "4.5.0.0",
-            "fileVersion": "4.5.0.0"
+          "lib/net8.0/Ardalis.GuardClauses.dll": {
+            "assemblyVersion": "4.6.0.0",
+            "fileVersion": "4.6.0.0"
           }
         }
       },
@@ -1020,12 +1020,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Ardalis.GuardClauses/4.5.0": {
+    "Ardalis.GuardClauses/4.6.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-9ajMCMD3gIWUsVb//ftJFsFm+TDvP3y05dVC1S9ANLP4Bo7V2xbCeQbTVomXR0mTYkX4mX6Lp3SPtdcKag4rZg==",
-      "path": "ardalis.guardclauses/4.5.0",
-      "hashPath": "ardalis.guardclauses.4.5.0.nupkg.sha512"
+      "sha512": "sha512-ckLr6V8tRXHu0kGVlen70sjXkZcbe6ZFknM3UDkeNzY75kXEe4Z5xru5weMU5IEAsuuqMKvVb7ikbUZ7JcHUSQ==",
+      "path": "ardalis.guardclauses/4.6.0",
+      "hashPath": "ardalis.guardclauses.4.6.0.nupkg.sha512"
     },
     "FastEndpoints/5.27.0": {
       "type": "package",

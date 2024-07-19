@@ -1,4 +1,5 @@
 ﻿using System.Security.Claims;
+using Ardalis.Result;
 using FastEndpoints;
 using MediatR;
 
@@ -22,7 +23,11 @@ public class AddItem : Endpoint<AddCartItemRequest>
         var emailAddress  = User.FindFirstValue("EmailAddress");
 
         var command = new AddCartItemCommand (  emailAddress, req.BookId , req.Quantity);
-        var result = await _mediator.Send(command, ct);
+        var result = await _mediator!.Send(command, ct);
+
+        if(result.Status == ResultStatus.Unauthorized){
+            await SendUnauthorizedAsync();
+        }
 
         await SendOkAsync();
     }

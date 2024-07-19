@@ -16,6 +16,7 @@ public class CartItem
 
     public CartItem(Guid id, Guid bookId, string description, int quantity, decimal price)
     {
+        Id = Guard.Against.Default(id);
         BookId = Guard.Against.Default(bookId);
         Description = Guard.Against.NullOrEmpty(description);
         Quantity = Guard.Against.Negative(quantity);
