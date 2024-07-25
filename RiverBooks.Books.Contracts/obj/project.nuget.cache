@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "5ksgQJ+5NdZOskOAIVtl1i2GuTnThtAC9eG1qitxtV9kYFSgpjCSrtD8SvvO4Ws4W96xCRb+URPZXjVBdqwVCg==",
+  "success": true,
+  "projectFilePath": "D:\\Project\\RiverBook\\RiverBooks.Books.Contracts\\RiverBooks.Books.Contracts.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Danish\\.nuget\\packages\\ardalis.result\\9.1.0\\ardalis.result.9.1.0.nupkg.sha512",
+    "C:\\Users\\Danish\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\Danish\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\Danish\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

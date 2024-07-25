@@ -228,6 +228,35 @@ namespace RiverBooks.Users.Data.Migrations
                     b.ToTable("AspNetUserTokens", "Users");
                 });
 
+            modelBuilder.Entity("RiverBooks.Users.CartItem", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("ApplicationUserId")
+                        .HasColumnType("text");
+
+                    b.Property<Guid>("BookId")
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<int>("Quantity")
+                        .HasColumnType("integer");
+
+                    b.Property<decimal>("UnitPrice")
+                        .HasPrecision(18, 6)
+                        .HasColumnType("numeric(18,6)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ApplicationUserId");
+
+                    b.ToTable("CartItem", "Users");
+                });
+
             modelBuilder.Entity("RiverBooks.Users.ApplicationUser", b =>
                 {
                     b.HasBaseType("Microsoft.AspNetCore.Identity.IdentityUser");
@@ -288,6 +317,18 @@ namespace RiverBooks.Users.Data.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("RiverBooks.Users.CartItem", b =>
+                {
+                    b.HasOne("RiverBooks.Users.ApplicationUser", null)
+                        .WithMany("CartItems")
+                        .HasForeignKey("ApplicationUserId");
+                });
+
+            modelBuilder.Entity("RiverBooks.Users.ApplicationUser", b =>
+                {
+                    b.Navigation("CartItems");
                 });
 #pragma warning restore 612, 618
         }

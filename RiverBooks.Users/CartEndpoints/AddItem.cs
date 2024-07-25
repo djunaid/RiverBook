@@ -2,6 +2,7 @@
 using Ardalis.Result;
 using FastEndpoints;
 using MediatR;
+using RiverBooks.Users.UseCases;
 
 namespace RiverBooks.Users;
 public class AddItem : Endpoint<AddCartItemRequest>

@@ -9,11 +9,14 @@
       "RiverBooks.Books/1.0.0": {
         "dependencies": {
           "Ardalis.GuardClauses": "4.6.0",
+          "Ardalis.Result": "9.1.0",
           "FastEndpoints": "5.27.0",
+          "MediatR": "12.2.0",
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "Microsoft.EntityFrameworkCore.Relational": "8.0.6",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.4",
           "Npgsql.EntityFrameworkCore.PostgreSQL.Design": "1.1.0",
+          "RiverBooks.Books.Contracts": "1.0.0",
           "Serilog.AspNetCore": "8.0.1"
         },
         "runtime": {
@@ -25,6 +28,14 @@
           "lib/net8.0/Ardalis.GuardClauses.dll": {
             "assemblyVersion": "4.6.0.0",
             "fileVersion": "4.6.0.0"
+          }
+        }
+      },
+      "Ardalis.Result/9.1.0": {
+        "runtime": {
+          "lib/net8.0/Ardalis.Result.dll": {
+            "assemblyVersion": "9.1.0.0",
+            "fileVersion": "9.1.0.0"
           }
         }
       },
@@ -62,6 +73,26 @@
           "lib/net8.0/FluentValidation.dll": {
             "assemblyVersion": "11.0.0.0",
             "fileVersion": "11.9.2.0"
+          }
+        }
+      },
+      "MediatR/12.2.0": {
+        "dependencies": {
+          "MediatR.Contracts": "2.0.1",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/MediatR.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.2.0.0"
+          }
+        }
+      },
+      "MediatR.Contracts/2.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/MediatR.Contracts.dll": {
+            "assemblyVersion": "2.0.1.0",
+            "fileVersion": "2.0.1.0"
           }
         }
       },
@@ -1011,6 +1042,15 @@
           "System.Threading": "4.3.0",
           "System.Xml.ReaderWriter": "4.3.0"
         }
+      },
+      "RiverBooks.Books.Contracts/1.0.0": {
+        "dependencies": {
+          "Ardalis.Result": "9.1.0",
+          "MediatR": "12.2.0"
+        },
+        "runtime": {
+          "RiverBooks.Books.Contracts.dll": {}
+        }
       }
     }
   },
@@ -1026,6 +1066,13 @@
       "sha512": "sha512-ckLr6V8tRXHu0kGVlen70sjXkZcbe6ZFknM3UDkeNzY75kXEe4Z5xru5weMU5IEAsuuqMKvVb7ikbUZ7JcHUSQ==",
       "path": "ardalis.guardclauses/4.6.0",
       "hashPath": "ardalis.guardclauses.4.6.0.nupkg.sha512"
+    },
+    "Ardalis.Result/9.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+gr5+vCUmFkmAyQgHQ2Ja0MdTVJW97L/M/6fgStDDhTB9DfS85ZZDo5WtI00bQUdy9/ccX5YRDKlWvw8En3WeA==",
+      "path": "ardalis.result/9.1.0",
+      "hashPath": "ardalis.result.9.1.0.nupkg.sha512"
     },
     "FastEndpoints/5.27.0": {
       "type": "package",
@@ -1054,6 +1101,20 @@
       "sha512": "sha512-XeHp9LvFvu1fsQ/NvDCymV02GOCB1nz7ZUhfpI3uMhCcHTkV1K5bMkv+Nc/kuNYyAsX5+5bcmUanIEMd5QN+Eg==",
       "path": "fluentvalidation/11.9.2",
       "hashPath": "fluentvalidation.11.9.2.nupkg.sha512"
+    },
+    "MediatR/12.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8TUFrHapKi6D74PhnSNEguRsH91HNGyP3R4ZQdgDorJgl9Wac5Prh0vA33QfrniAaS6L2xNNhc6vxzg+5AIbwA==",
+      "path": "mediatr/12.2.0",
+      "hashPath": "mediatr.12.2.0.nupkg.sha512"
+    },
+    "MediatR.Contracts/2.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FYv95bNT4UwcNA+G/J1oX5OpRiSUxteXaUt2BJbRSdRNiIUNbggJF69wy6mnk2wYToaanpdXZdCwVylt96MpwQ==",
+      "path": "mediatr.contracts/2.0.1",
+      "hashPath": "mediatr.contracts.2.0.1.nupkg.sha512"
     },
     "Microsoft.EntityFrameworkCore/8.0.6": {
       "type": "package",
@@ -1796,6 +1857,11 @@
       "sha512": "sha512-5zJ0XDxAIg8iy+t4aMnQAu0MqVbqyvfoUVl1yDV61xdo3Vth45oA2FoY4pPkxYAH5f8ixpmTqXeEIya95x0aCQ==",
       "path": "system.xml.xdocument/4.3.0",
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
+    },
+    "RiverBooks.Books.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

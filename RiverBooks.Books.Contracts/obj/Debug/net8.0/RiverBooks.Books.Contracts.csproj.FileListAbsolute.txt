@@ -1,0 +1,13 @@
+D:\Project\RiverBook\RiverBooks.Books.Contracts\obj\Debug\net8.0\RiverBooks.Books.Contracts.csproj.AssemblyReference.cache
+D:\Project\RiverBook\RiverBooks.Books.Contracts\obj\Debug\net8.0\RiverBooks.Books.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\RiverBook\RiverBooks.Books.Contracts\obj\Debug\net8.0\RiverBooks.Books.Contracts.AssemblyInfoInputs.cache
+D:\Project\RiverBook\RiverBooks.Books.Contracts\obj\Debug\net8.0\RiverBooks.Books.Contracts.AssemblyInfo.cs
+D:\Project\RiverBook\RiverBooks.Books.Contracts\obj\Debug\net8.0\RiverBooks.Books.Contracts.csproj.CoreCompileInputs.cache
+D:\Project\RiverBook\RiverBooks.Books.Contracts\obj\Debug\net8.0\RiverBooks.Books.Contracts.sourcelink.json
+D:\Project\RiverBook\RiverBooks.Books.Contracts\bin\Debug\net8.0\RiverBooks.Books.Contracts.deps.json
+D:\Project\RiverBook\RiverBooks.Books.Contracts\bin\Debug\net8.0\RiverBooks.Books.Contracts.dll
+D:\Project\RiverBook\RiverBooks.Books.Contracts\bin\Debug\net8.0\RiverBooks.Books.Contracts.pdb
+D:\Project\RiverBook\RiverBooks.Books.Contracts\obj\Debug\net8.0\RiverBooks.Books.Contracts.dll
+D:\Project\RiverBook\RiverBooks.Books.Contracts\obj\Debug\net8.0\refint\RiverBooks.Books.Contracts.dll
+D:\Project\RiverBook\RiverBooks.Books.Contracts\obj\Debug\net8.0\RiverBooks.Books.Contracts.pdb
+D:\Project\RiverBook\RiverBooks.Books.Contracts\obj\Debug\net8.0\ref\RiverBooks.Books.Contracts.dll

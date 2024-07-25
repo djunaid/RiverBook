@@ -1952,15 +1952,27 @@
       "RiverBooks.Books/1.0.0": {
         "dependencies": {
           "Ardalis.GuardClauses": "4.6.0",
+          "Ardalis.Result": "9.1.0",
           "FastEndpoints": "5.27.0",
+          "MediatR": "12.2.0",
           "Microsoft.EntityFrameworkCore": "8.0.7",
           "Microsoft.EntityFrameworkCore.Relational": "8.0.7",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.4",
           "Npgsql.EntityFrameworkCore.PostgreSQL.Design": "1.1.0",
+          "RiverBooks.Books.Contracts": "1.0.0",
           "Serilog.AspNetCore": "8.0.1"
         },
         "runtime": {
           "RiverBooks.Books.dll": {}
+        }
+      },
+      "RiverBooks.Books.Contracts/1.0.0": {
+        "dependencies": {
+          "Ardalis.Result": "9.1.0",
+          "MediatR": "12.2.0"
+        },
+        "runtime": {
+          "RiverBooks.Books.Contracts.dll": {}
         }
       },
       "RiverBooks.Users/1.0.0": {
@@ -1978,6 +1990,7 @@
           "Microsoft.Extensions.DependencyInjection": "8.0.0",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.4",
           "Npgsql.EntityFrameworkCore.PostgreSQL.Design": "1.1.0",
+          "RiverBooks.Books.Contracts": "1.0.0",
           "Serilog.AspNetCore": "8.0.1"
         },
         "runtime": {
@@ -3379,6 +3392,11 @@
       "hashPath": "yamldotnet.13.7.1.nupkg.sha512"
     },
     "RiverBooks.Books/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RiverBooks.Books.Contracts/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Ardalis.GuardClauses" Version="4.5.0" />
+    <PackageReference Include="Ardalis.GuardClauses" Version="4.6.0" />
     <PackageReference Include="Ardalis.Result" Version="9.1.0" />
     <PackageReference Include="FastEndpoints.Security" Version="5.21.0" />
     <PackageReference Include="MediatR" Version="12.2.0" />
@@ -24,7 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="UseCases/" />
+    <ProjectReference Include="..\RiverBooks.Books.Contracts\RiverBooks.Books.Contracts.csproj" />
   </ItemGroup>
 
 </Project>

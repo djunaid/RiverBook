@@ -1,4 +1,5 @@
 
+using System.Collections.ObjectModel;
 using System.Runtime.Versioning;
 using System.Security.Cryptography.X509Certificates;
 using Ardalis.GuardClauses;
@@ -13,6 +14,8 @@ public class ApplicationUser : IdentityUser
 
     private readonly List<CartItem> _cartItems = new();
 
+    public IReadOnlyCollection<CartItem> CartItems => _cartItems.AsReadOnly();
+
     public void AddItemToCart(CartItem item){
         
         Guard.Against.Null(item);
@@ -22,6 +25,9 @@ public class ApplicationUser : IdentityUser
         if(existingBook != null)
         {
             existingBook.UpdateQuantity(existingBook.Quantity + item.Quantity);
+
+            existingBook.UpdateUnitPrice(item.UnitPrice);
+            existingBook.UpdateDescription(item.Description);
             return;
         }
 

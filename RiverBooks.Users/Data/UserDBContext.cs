@@ -4,19 +4,22 @@ using Microsoft.EntityFrameworkCore;
 
 namespace RiverBooks.Users;
 
-public class UserDBContext : IdentityDbContext {
+public class UserDBContext : IdentityDbContext
+{
 
 
-    public UserDBContext (DbContextOptions<UserDBContext> options) : 
-        base(options){ }
+    public UserDBContext(DbContextOptions<UserDBContext> options) :
+        base(options)
+    { }
 
-    public DbSet<ApplicationUser> ApplicationUsers { get; set; }   
+    public DbSet<ApplicationUser> ApplicationUsers { get; set; }
 
-    protected override void OnModelCreating (ModelBuilder builder){
+    protected override void OnModelCreating(ModelBuilder builder)
+    {
 
         builder.HasDefaultSchema("Users");
 
-        builder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());  
+        builder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
 
         base.OnModelCreating(builder);
 
@@ -25,7 +28,7 @@ public class UserDBContext : IdentityDbContext {
     protected override void ConfigureConventions(ModelConfigurationBuilder configurationBuilder)
     {
         configurationBuilder.Properties<decimal>()
-            .HavePrecision(18,6);
+            .HavePrecision(18, 6);
     }
 
 

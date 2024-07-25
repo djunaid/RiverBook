@@ -7,8 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+
+    <PackageReference Include="Ardalis.Result" Version="9.1.0" />
     <PackageReference Include="Ardalis.GuardClauses" Version="4.6.0" />
     <PackageReference Include="FastEndpoints" Version="5.27.0" />
+    <PackageReference Include="MediatR" Version="12.2.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.6" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="8.0.6" />
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.4" />
@@ -20,6 +23,10 @@
     <Folder Include="Endpoints/" />
     
     <Folder Include="BookEndpoints/" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RiverBooks.Books.Contracts\RiverBooks.Books.Contracts.csproj" />
   </ItemGroup>
 
 </Project>

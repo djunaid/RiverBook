@@ -24,7 +24,6 @@ builder.Services.AddSwaggerGen();
 
 List<Assembly> mediatRAssemblies = [typeof(Program).Assembly];
 
-builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(mediatRAssemblies.ToArray()));
 
 // add service dependency for modules
 builder.Services.AddFastEndpoints()
@@ -34,6 +33,9 @@ builder.Services.AddFastEndpoints()
 
 builder.Services.AddBookService(builder.Configuration, logger, mediatRAssemblies);
 builder.Services.AddUserServices(builder.Configuration, logger, mediatRAssemblies);
+
+builder.Services.AddMediatR(cfg => 
+            cfg.RegisterServicesFromAssemblies(mediatRAssemblies.ToArray()));
 
 var app = builder.Build();
 
@@ -45,7 +47,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseAuthentication().UseAuthorization();
 
-app.UseHttpsRedirection();
+//app.UseHttpsRedirection();
 app.UseFastEndpoints().UseSwaggerGen();
 
 app.Run();

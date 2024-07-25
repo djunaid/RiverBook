@@ -6,7 +6,7 @@ Accept: application/json
 
 ###
 
-@BookId=4040756b-9770-46ad-923b-a5c524f4de85
+@BookId=e2c8eca2-9382-4fbc-88ea-d5a09cea4e94
 GET {{RiverBooks.Web_HostAddress}}/books/{{BookId}}
 Accept: application/json
 
@@ -53,14 +53,31 @@ Accept: application/json
 Content-Type: application/json
 
 {
-      "email" : "danish@test.com",
+      "email" : "danish.junaid@test.com",
       "password" : "P@ssword1"
 }
 
 ###
-@token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFbWFpbEFkZHJlc3MiOiJkYW5pc2hAdGVzdC5jb20iLCJuYmYiOjE3MjA2NzQ1NTIsImV4cCI6MTcyMDY3ODE1MiwiaWF0IjoxNzIwNjc0NTUyfQ.21cnLPlAvdMCYiALFXilB86uZboq5i2qg1qahXhGu3o
+@token = eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJFbWFpbEFkZHJlc3MiOiJkYW5pc2guanVuYWlkQHRlc3QuY29tIiwiaWF0IjoxNzIxODgxNjA3LCJleHAiOjE3MjE4ODUyMDcsIm5iZiI6MTcyMTg4MTYwN30.40zAInZcnMKbOcbVV7lIyzQVZ-lNpFx8n2wDMjW81f8
 
 
 ###
 GET {{RiverBooks.Web_HostAddress}}/users
 Accept: application/json
+
+###
+POST {{RiverBooks.Web_HostAddress}}/cart
+Accept: text/plain
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "bookId" : "2219fac9-7fd0-46d9-9944-511660a9b764",
+  "quantity" : 1
+}
+
+###
+
+GET {{RiverBooks.Web_HostAddress}}/cart      
+Accept: application/json
+Authorization: Bearer {{token}}

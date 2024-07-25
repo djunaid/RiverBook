@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using RiverBooks.Users.Data;
 using Serilog;
 
 namespace RiverBooks.Users;
@@ -26,6 +27,8 @@ public static class UserServiceExtensions
         logger.Information("{Module} module has been registered", "Users");
 
         mediatRAssemblies.Add(typeof(UserServiceExtensions).Assembly);
+
+        services.AddScoped<IApplicatinUserRepository,EfApplicationUserRepository>();
 
 
         return services;
