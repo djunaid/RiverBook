@@ -1,0 +1,13 @@
+D:\Project\RiverBook\RiverBooks.OrderProcessing.Contracts\bin\Debug\net8.0\RiverBooks.OrderProcessing.Contracts.deps.json
+D:\Project\RiverBook\RiverBooks.OrderProcessing.Contracts\bin\Debug\net8.0\RiverBooks.OrderProcessing.Contracts.dll
+D:\Project\RiverBook\RiverBooks.OrderProcessing.Contracts\bin\Debug\net8.0\RiverBooks.OrderProcessing.Contracts.pdb
+D:\Project\RiverBook\RiverBooks.OrderProcessing.Contracts\obj\Debug\net8.0\RiverBooks.OrderProcessing.Contracts.csproj.AssemblyReference.cache
+D:\Project\RiverBook\RiverBooks.OrderProcessing.Contracts\obj\Debug\net8.0\RiverBooks.OrderProcessing.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\RiverBook\RiverBooks.OrderProcessing.Contracts\obj\Debug\net8.0\RiverBooks.OrderProcessing.Contracts.AssemblyInfoInputs.cache
+D:\Project\RiverBook\RiverBooks.OrderProcessing.Contracts\obj\Debug\net8.0\RiverBooks.OrderProcessing.Contracts.AssemblyInfo.cs
+D:\Project\RiverBook\RiverBooks.OrderProcessing.Contracts\obj\Debug\net8.0\RiverBooks.OrderProcessing.Contracts.csproj.CoreCompileInputs.cache
+D:\Project\RiverBook\RiverBooks.OrderProcessing.Contracts\obj\Debug\net8.0\RiverBooks.OrderProcessing.Contracts.sourcelink.json
+D:\Project\RiverBook\RiverBooks.OrderProcessing.Contracts\obj\Debug\net8.0\RiverBooks.OrderProcessing.Contracts.dll
+D:\Project\RiverBook\RiverBooks.OrderProcessing.Contracts\obj\Debug\net8.0\refint\RiverBooks.OrderProcessing.Contracts.dll
+D:\Project\RiverBook\RiverBooks.OrderProcessing.Contracts\obj\Debug\net8.0\RiverBooks.OrderProcessing.Contracts.pdb
+D:\Project\RiverBook\RiverBooks.OrderProcessing.Contracts\obj\Debug\net8.0\ref\RiverBooks.OrderProcessing.Contracts.dll

@@ -22,6 +22,7 @@
           "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.4",
           "Npgsql.EntityFrameworkCore.PostgreSQL.Design": "1.1.0",
           "RiverBooks.Books.Contracts": "1.0.0",
+          "RiverBooks.OrderProcessing.Contracts": "1.0.0",
           "Serilog.AspNetCore": "8.0.1"
         },
         "runtime": {
@@ -1355,6 +1356,15 @@
         "runtime": {
           "RiverBooks.Books.Contracts.dll": {}
         }
+      },
+      "RiverBooks.OrderProcessing.Contracts/1.0.0": {
+        "dependencies": {
+          "Ardalis.Result": "9.1.0",
+          "MediatR": "12.2.0"
+        },
+        "runtime": {
+          "RiverBooks.OrderProcessing.Contracts.dll": {}
+        }
       }
     }
   },
@@ -2429,6 +2439,11 @@
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
     },
     "RiverBooks.Books.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RiverBooks.OrderProcessing.Contracts/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

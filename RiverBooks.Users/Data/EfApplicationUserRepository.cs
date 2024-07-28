@@ -16,6 +16,11 @@ internal class EfApplicationUserRepository : IApplicatinUserRepository
         _dbContext = dbContext;
     }
 
+    public Task<ApplicationUser> GetUserWithAddressByEmailAsync(string emailAddress)
+    {
+        throw new NotImplementedException();
+    }
+
     public Task<ApplicationUser> GetUserWithCartByEmailAsync(string email)
     {
         return _dbContext.ApplicationUsers

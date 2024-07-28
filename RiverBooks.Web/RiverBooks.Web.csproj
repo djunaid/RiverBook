@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
@@ -12,8 +12,8 @@
     
     <PackageReference Include="MediatR" Version="12.2.0" />
     <PackageReference Include="FastEndpoints" Version="5.27.0" />
-    <PackageReference Include="FastEndpoints.Swagger" Version="5.21.0" />
-    <PackageReference Include="FastEndpoints.Security" Version="5.21.0" />
+    <PackageReference Include="FastEndpoints.Swagger" Version="5.27.0" />
+    <PackageReference Include="FastEndpoints.Security" Version="5.27.0" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.4" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.6">
     
@@ -21,9 +21,10 @@
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
     <PackageReference Include="Serilog.AspNetCore" Version="8.0.1" />
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\RiverBooks.OrderProcessing\RiverBooks.OrderProcessing.csproj" />
     <ProjectReference Include="..\RiverBooks.Users\RiverBooks.Users.csproj" />
     <ProjectReference Include="..\RiverBooks.Books\RiverBooks.Books.csproj" />
   </ItemGroup>

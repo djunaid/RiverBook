@@ -2663,6 +2663,20 @@
         "runtime": {
           "bin/placeholder/RiverBooks.Books.Contracts.dll": {}
         }
+      },
+      "RiverBooks.OrderProcessing.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Ardalis.Result": "9.1.0",
+          "MediatR": "12.2.0"
+        },
+        "compile": {
+          "bin/placeholder/RiverBooks.OrderProcessing.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RiverBooks.OrderProcessing.Contracts.dll": {}
+        }
       }
     }
   },
@@ -7829,6 +7843,11 @@
       "type": "project",
       "path": "../RiverBooks.Books.Contracts/RiverBooks.Books.Contracts.csproj",
       "msbuildProject": "../RiverBooks.Books.Contracts/RiverBooks.Books.Contracts.csproj"
+    },
+    "RiverBooks.OrderProcessing.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../RiverBooks.OrderProcessing.Contracts/RiverBooks.OrderProcessing.Contracts.csproj",
+      "msbuildProject": "../RiverBooks.OrderProcessing.Contracts/RiverBooks.OrderProcessing.Contracts.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -7847,6 +7866,7 @@
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 8.0.4",
       "Npgsql.EntityFrameworkCore.PostgreSQL.Design >= 1.1.0",
       "RiverBooks.Books.Contracts >= 1.0.0",
+      "RiverBooks.OrderProcessing.Contracts >= 1.0.0",
       "Serilog.AspNetCore >= 8.0.1"
     ]
   },
@@ -7879,6 +7899,9 @@
           "projectReferences": {
             "D:\\Project\\RiverBook\\RiverBooks.Books.Contracts\\RiverBooks.Books.Contracts.csproj": {
               "projectPath": "D:\\Project\\RiverBook\\RiverBooks.Books.Contracts\\RiverBooks.Books.Contracts.csproj"
+            },
+            "D:\\Project\\RiverBook\\RiverBooks.OrderProcessing.Contracts\\RiverBooks.OrderProcessing.Contracts.csproj": {
+              "projectPath": "D:\\Project\\RiverBook\\RiverBooks.OrderProcessing.Contracts\\RiverBooks.OrderProcessing.Contracts.csproj"
             }
           }
         }

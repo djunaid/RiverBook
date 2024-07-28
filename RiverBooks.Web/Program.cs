@@ -5,6 +5,7 @@ using Serilog;
 using FastEndpoints.Security;
 using FastEndpoints.Swagger;
 using System.Reflection;
+using RiverBooks.OrderProcessing;
 
 var logger = Log.Logger = new LoggerConfiguration()
         .Enrich.FromLogContext()
@@ -19,31 +20,28 @@ builder.Host.UseSerilog( (_, config) =>
             config.ReadFrom.Configuration(builder.Configuration));
 // Add services to the container.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+//builder.Services.AddEndpointsApiExplorer();
+//builder.Services.AddSwaggerGen();
 
 List<Assembly> mediatRAssemblies = [typeof(Program).Assembly];
 
 
 // add service dependency for modules
-builder.Services.AddFastEndpoints()
+builder.Services.AddFastEndpoints()    
     .AddJWTBearerAuth(builder.Configuration["Auth:JwtSecret"]!)
     .AddAuthorization()
     .SwaggerDocument();
+    
 
-builder.Services.AddBookService(builder.Configuration, logger, mediatRAssemblies);
-builder.Services.AddUserServices(builder.Configuration, logger, mediatRAssemblies);
+builder.Services.AddBookModuleService(builder.Configuration, logger, mediatRAssemblies);
+builder.Services.AddOrderProcessingModuleServices(builder.Configuration, logger, mediatRAssemblies);
+builder.Services.AddUserModuleServices(builder.Configuration, logger, mediatRAssemblies);
 
 builder.Services.AddMediatR(cfg => 
             cfg.RegisterServicesFromAssemblies(mediatRAssemblies.ToArray()));
 
 var app = builder.Build();
 
-if (app.Environment.IsDevelopment())
-{
-   // app.UseSwagger();
-   // app.UseSwaggerUI();
-}
 
 app.UseAuthentication().UseAuthorization();
 

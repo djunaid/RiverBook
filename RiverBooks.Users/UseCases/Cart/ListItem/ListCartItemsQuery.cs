@@ -2,7 +2,7 @@
 using MediatR;
 using RiverBooks.Users.CartEndpoints;
 
-namespace RiverBooks.Users
+namespace RiverBooks.Users.UseCases.Cart.ListItem
 {
     public record ListCartItemsQuery(string emailAddress) : IRequest<Result<List<CartItemDTO>>>;
 
@@ -25,7 +25,7 @@ namespace RiverBooks.Users
             }
 
             return user.CartItems
-                .Select(item => new CartItemDTO(item.Id,item.BookId,item.Description,item.Quantity,item.UnitPrice))
+                .Select(item => new CartItemDTO(item.Id, item.BookId, item.Description, item.Quantity, item.UnitPrice))
                 .ToList();
         }
     }

@@ -27,3 +27,5 @@ D:\Project\RiverBook\RiverBooks.Users\obj\Debug\net8.0\ref\RiverBooks.Users.dll
 D:\Project\RiverBook\RiverBooks.Users\obj\Debug\net8.0\RiverBoo.B92CF900.Up2Date
 D:\Project\RiverBook\RiverBooks.Users\bin\Debug\net8.0\RiverBooks.Books.Contracts.dll
 D:\Project\RiverBook\RiverBooks.Users\bin\Debug\net8.0\RiverBooks.Books.Contracts.pdb
+D:\Project\RiverBook\RiverBooks.Users\bin\Debug\net8.0\RiverBooks.OrderProcessing.Contracts.dll
+D:\Project\RiverBook\RiverBooks.Users\bin\Debug\net8.0\RiverBooks.OrderProcessing.Contracts.pdb

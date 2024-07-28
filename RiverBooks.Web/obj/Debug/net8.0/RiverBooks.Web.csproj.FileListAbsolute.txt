@@ -290,10 +290,12 @@ D:\Project\RiverBook\RiverBooks.Web\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.W
 D:\Project\RiverBook\RiverBooks.Web\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\Project\RiverBook\RiverBooks.Web\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\Project\RiverBook\RiverBooks.Web\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Project\RiverBook\RiverBooks.Web\bin\Debug\net8.0\RiverBooks.Books.Contracts.dll
 D:\Project\RiverBook\RiverBooks.Web\bin\Debug\net8.0\RiverBooks.Books.dll
 D:\Project\RiverBook\RiverBooks.Web\bin\Debug\net8.0\RiverBooks.Users.dll
 D:\Project\RiverBook\RiverBooks.Web\bin\Debug\net8.0\RiverBooks.Users.pdb
 D:\Project\RiverBook\RiverBooks.Web\bin\Debug\net8.0\RiverBooks.Books.pdb
+D:\Project\RiverBook\RiverBooks.Web\bin\Debug\net8.0\RiverBooks.Books.Contracts.pdb
 D:\Project\RiverBook\RiverBooks.Web\obj\Debug\net8.0\RiverBooks.Web.csproj.AssemblyReference.cache
 D:\Project\RiverBook\RiverBooks.Web\obj\Debug\net8.0\RiverBooks.Web.GeneratedMSBuildEditorConfig.editorconfig
 D:\Project\RiverBook\RiverBooks.Web\obj\Debug\net8.0\RiverBooks.Web.AssemblyInfoInputs.cache
@@ -316,5 +318,7 @@ D:\Project\RiverBook\RiverBooks.Web\obj\Debug\net8.0\refint\RiverBooks.Web.dll
 D:\Project\RiverBook\RiverBooks.Web\obj\Debug\net8.0\RiverBooks.Web.pdb
 D:\Project\RiverBook\RiverBooks.Web\obj\Debug\net8.0\RiverBooks.Web.genruntimeconfig.cache
 D:\Project\RiverBook\RiverBooks.Web\obj\Debug\net8.0\ref\RiverBooks.Web.dll
-D:\Project\RiverBook\RiverBooks.Web\bin\Debug\net8.0\RiverBooks.Books.Contracts.dll
-D:\Project\RiverBook\RiverBooks.Web\bin\Debug\net8.0\RiverBooks.Books.Contracts.pdb
+D:\Project\RiverBook\RiverBooks.Web\bin\Debug\net8.0\RiverBooks.OrderProcessing.dll
+D:\Project\RiverBook\RiverBooks.Web\bin\Debug\net8.0\RiverBooks.OrderProcessing.pdb
+D:\Project\RiverBook\RiverBooks.Web\bin\Debug\net8.0\RiverBooks.OrderProcessing.Contracts.dll
+D:\Project\RiverBook\RiverBooks.Web\bin\Debug\net8.0\RiverBooks.OrderProcessing.Contracts.pdb
