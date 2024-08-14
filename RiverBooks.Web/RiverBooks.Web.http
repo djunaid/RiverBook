@@ -58,7 +58,7 @@ Content-Type: application/json
 }
 
 ###
-@token = eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJFbWFpbEFkZHJlc3MiOiJkYW5pc2guanVuYWlkQHRlc3QuY29tIiwiaWF0IjoxNzIyMTEzODUyLCJleHAiOjE3MjIxMTc0NTIsIm5iZiI6MTcyMjExMzg1Mn0.PLoT4LO097CB-FEeSejBOw5UcXWC1QVafIG9GXMfGQM
+@token = eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJFbWFpbEFkZHJlc3MiOiJkYW5pc2guanVuYWlkQHRlc3QuY29tIiwiaWF0IjoxNzIzNTgyMDc2LCJleHAiOjE3MjM1ODU2NzYsIm5iZiI6MTcyMzU4MjA3Nn0.PQxuMuq980NV2hQCfOILJa30Z6YsBA6IwzhiyuMUJRE
 
 
 ###
@@ -94,6 +94,35 @@ Content-Type: application/json
 Authorization: Bearer {{token}}
 
 {
-  "shippingAddressId" : "4040756b-9770-46ad-923b-a5c524f4de85",
-  "billingAddressId" : "4040756b-9770-46ad-923b-a5c524f4de85"
+  "shippingAddressId" : "8014d786-a9d4-4fe3-b9d9-7e63aeafa292",
+  "billingAddressId" : "8014d786-a9d4-4fe3-b9d9-7e63aeafa292"
+}
+
+###
+GET {{RiverBooks.Web_HostAddress}}/user/addresses
+Accept: application/json
+Authorization: Bearer {{token}}
+
+###
+POST {{RiverBooks.Web_HostAddress}}/user/address
+Accept: application/json
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "street1" : "23 Cleen St.",
+  "street2" : "",
+  "city" : "ABC City",
+  "state" : "MI",
+  "postalcode" : "A11345",
+  "country" : "USA"
+}
+
+###
+POST {{RiverBooks.Web_HostAddress}}/flushcache
+Accept: application/json
+Content-Type: application/json
+
+{
+
 }

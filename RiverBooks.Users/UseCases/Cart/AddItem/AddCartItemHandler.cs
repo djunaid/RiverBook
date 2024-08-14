@@ -1,6 +1,8 @@
 ﻿using MediatR;
 using Ardalis.Result;
 using RiverBooks.Books.Contracts;
+using RiverBooks.Users.Interfaces;
+using RiverBooks.Users.Domain;
 
 namespace RiverBooks.Users.UseCases.Cart.AddItem;
 

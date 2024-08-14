@@ -301,7 +301,6 @@ D:\Project\RiverBook\RiverBooks.Web\obj\Debug\net8.0\RiverBooks.Web.GeneratedMSB
 D:\Project\RiverBook\RiverBooks.Web\obj\Debug\net8.0\RiverBooks.Web.AssemblyInfoInputs.cache
 D:\Project\RiverBook\RiverBooks.Web\obj\Debug\net8.0\RiverBooks.Web.AssemblyInfo.cs
 D:\Project\RiverBook\RiverBooks.Web\obj\Debug\net8.0\RiverBooks.Web.csproj.CoreCompileInputs.cache
-D:\Project\RiverBook\RiverBooks.Web\obj\Debug\net8.0\RiverBooks.Web.MvcApplicationPartsAssemblyInfo.cs
 D:\Project\RiverBook\RiverBooks.Web\obj\Debug\net8.0\RiverBooks.Web.MvcApplicationPartsAssemblyInfo.cache
 D:\Project\RiverBook\RiverBooks.Web\obj\Debug\net8.0\RiverBooks.Web.sourcelink.json
 D:\Project\RiverBook\RiverBooks.Web\obj\Debug\net8.0\staticwebassets.build.json
@@ -322,3 +321,12 @@ D:\Project\RiverBook\RiverBooks.Web\bin\Debug\net8.0\RiverBooks.OrderProcessing.
 D:\Project\RiverBook\RiverBooks.Web\bin\Debug\net8.0\RiverBooks.OrderProcessing.pdb
 D:\Project\RiverBook\RiverBooks.Web\bin\Debug\net8.0\RiverBooks.OrderProcessing.Contracts.dll
 D:\Project\RiverBook\RiverBooks.Web\bin\Debug\net8.0\RiverBooks.OrderProcessing.Contracts.pdb
+D:\Project\RiverBook\RiverBooks.Web\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
+D:\Project\RiverBook\RiverBooks.Web\bin\Debug\net8.0\StackExchange.Redis.dll
+D:\Project\RiverBook\RiverBooks.Web\bin\Debug\net8.0\RiverBooks.Users.Contracts.dll
+D:\Project\RiverBook\RiverBooks.Web\bin\Debug\net8.0\RiverBooks.Users.Contracts.pdb
+D:\Project\RiverBook\RiverBooks.Web\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\Project\RiverBook\RiverBooks.Web\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Project\RiverBook\RiverBooks.Web\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Project\RiverBook\RiverBooks.Web\bin\Debug\net8.0\RiverBooks.SharedKernel.dll
+D:\Project\RiverBook\RiverBooks.Web\bin\Debug\net8.0\RiverBooks.SharedKernel.pdb

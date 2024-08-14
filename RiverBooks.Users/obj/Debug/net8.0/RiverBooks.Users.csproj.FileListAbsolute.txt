@@ -29,3 +29,7 @@ D:\Project\RiverBook\RiverBooks.Users\bin\Debug\net8.0\RiverBooks.Books.Contract
 D:\Project\RiverBook\RiverBooks.Users\bin\Debug\net8.0\RiverBooks.Books.Contracts.pdb
 D:\Project\RiverBook\RiverBooks.Users\bin\Debug\net8.0\RiverBooks.OrderProcessing.Contracts.dll
 D:\Project\RiverBook\RiverBooks.Users\bin\Debug\net8.0\RiverBooks.OrderProcessing.Contracts.pdb
+D:\Project\RiverBook\RiverBooks.Users\bin\Debug\net8.0\RiverBooks.Users.Contracts.dll
+D:\Project\RiverBook\RiverBooks.Users\bin\Debug\net8.0\RiverBooks.Users.Contracts.pdb
+D:\Project\RiverBook\RiverBooks.Users\bin\Debug\net8.0\RiverBooks.SharedKernel.dll
+D:\Project\RiverBook\RiverBooks.Users\bin\Debug\net8.0\RiverBooks.SharedKernel.pdb

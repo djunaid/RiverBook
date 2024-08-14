@@ -2,7 +2,9 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using RiverBooks.OrderProcessing.Data;
+using RiverBooks.OrderProcessing.Infrastructure;
+using RiverBooks.OrderProcessing.Infrastructure.Data;
+using RiverBooks.OrderProcessing.Interface;
 using Serilog;
 
 namespace RiverBooks.OrderProcessing;
@@ -26,6 +28,8 @@ public static class OrderProcessingModuleServiceExtensions
         mediatRAssemblies.Add(typeof(OrderProcessingModuleServiceExtensions).Assembly);
 
         services.AddScoped<IOrderRepository,EfOrderRepository>();
+        services.AddScoped<RedisOrderAddressCache>();
+        services.AddScoped<IOrderAddressCache, ReadThroughOrderAddressCache>();
 
 
         return services;

@@ -1,6 +1,6 @@
 ﻿using Ardalis.Result;
 using MediatR;
-using RiverBooks.OrderProcessing.Data;
+using RiverBooks.OrderProcessing.Interface;
 using System;
 using System.Collections.Generic;
 using System.Linq;

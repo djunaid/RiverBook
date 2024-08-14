@@ -8,6 +8,6 @@
 
   <ItemGroup>
     <PackageReference Include="MediatR" Version="12.2.0" />
-    <PackageReference Include="Ardalis.Result" Version="9.1.0" />
+    <PackageReference Include="Ardalis.Result" Version="9.1.0" />    
   </ItemGroup>
 </Project>

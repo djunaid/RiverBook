@@ -1,6 +1,7 @@
 ﻿using Ardalis.Result;
 using MediatR;
 using RiverBooks.OrderProcessing.Contracts;
+using RiverBooks.Users.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -45,13 +46,13 @@ namespace RiverBooks.Users.UseCases.Checkout
 
             if(!result.IsSuccess)
             {
-                result.Map(x => x.OrderId);
+                result.Map(x => x.NewOrderId);
             }
 
             user.ClearCart();
             await _userRepository.SaveChangesAsync();
 
-            return Result.Success(result.Value.OrderId);
+            return Result.Success(result.Value.NewOrderId);
         }
 
 

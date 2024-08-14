@@ -1,13 +1,14 @@
 ﻿using Ardalis.Result;
 using MediatR;
-using Microsoft.Extensions.Logging;
+using Serilog;
 using RiverBooks.OrderProcessing.Contracts;
-using RiverBooks.OrderProcessing.Data;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using RiverBooks.OrderProcessing.Domain;
+using RiverBooks.OrderProcessing.Interface;
 
 namespace RiverBooks.OrderProcessing.Integrations
 {
@@ -15,11 +16,13 @@ namespace RiverBooks.OrderProcessing.Integrations
     {
         private readonly IOrderRepository _orderRepository;
         private readonly ILogger _logger;
+        private readonly IOrderAddressCache _orderAddressCache;
 
-        public CreateOrderCommandHandler(IOrderRepository orderRepository, ILogger logger)
+        public CreateOrderCommandHandler(IOrderRepository orderRepository, ILogger logger, IOrderAddressCache orderAddressCache)
         {
             _orderRepository = orderRepository;
             _logger = logger;
+            _orderAddressCache = orderAddressCache;
         }
 
         public async Task<Result<OrderDetailResponse>> Handle(CreateOrderCommand request, CancellationToken cancellationToken)
@@ -32,15 +35,18 @@ namespace RiverBooks.OrderProcessing.Integrations
                  item.UnitPrice
             ));
 
-            var billingAddress = new Address("ABC Street", "", "Kent", "CA", "12345", "USA");
-            var shippingAddress = billingAddress;
+            //  var billingAddress = new Address("ABC Street", "", "Kent", "CA", "12345", "USA");
+            //  var shippingAddress = billingAddress;
 
-            var newOrder = Order.Factory.Create(request.UserId, shippingAddress, billingAddress, items);
+            var shippingAddress = await _orderAddressCache.GetByIdAsync(request.ShippingAddressId);
+            var billingAddress = await _orderAddressCache.GetByIdAsync(request.BillingAddressId);
+
+            var newOrder = Order.Factory.Create(request.UserId, shippingAddress.Value.Address, billingAddress.Value.Address, items);
 
             await _orderRepository.AddAsync(newOrder);
             await _orderRepository.SaveChangesAsync();
 
-            _logger.LogInformation($"New order created: {newOrder.Id}");
+            _logger.Information($"New order created: {newOrder.Id}");
 
             return new OrderDetailResponse(newOrder.Id);
 

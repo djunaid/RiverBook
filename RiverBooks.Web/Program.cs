@@ -6,6 +6,8 @@ using FastEndpoints.Security;
 using FastEndpoints.Swagger;
 using System.Reflection;
 using RiverBooks.OrderProcessing;
+using RiverBooks.SharedKernel;
+using RiverBooks.Users.UseCases.Cart.AddItem;
 
 var logger = Log.Logger = new LoggerConfiguration()
         .Enrich.FromLogContext()
@@ -39,6 +41,12 @@ builder.Services.AddUserModuleServices(builder.Configuration, logger, mediatRAss
 
 builder.Services.AddMediatR(cfg => 
             cfg.RegisterServicesFromAssemblies(mediatRAssemblies.ToArray()));
+
+builder.Services.AddScoped<IDomainEventDispatcher, MediatRDomainEventDispatcher>();
+
+builder.Services.AddLoggingBehavior();
+builder.Services.AddFluentValidationBehavior();
+builder.Services.AddValidatorsFromAssemblyContaining<AddCartItemCommandValidator>();
 
 var app = builder.Build();
 

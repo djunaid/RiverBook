@@ -2,7 +2,9 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using RiverBooks.Users.Data;
+using RiverBooks.Users.Domain;
+using RiverBooks.Users.Infrastructure.Data;
+using RiverBooks.Users.Interfaces;
 using Serilog;
 
 namespace RiverBooks.Users;
@@ -29,6 +31,9 @@ public static class UserServiceExtensions
         mediatRAssemblies.Add(typeof(UserServiceExtensions).Assembly);
 
         services.AddScoped<IApplicatinUserRepository,EfApplicationUserRepository>();
+        services.AddScoped<IReadOnlyUserAddressRepository, EfUserStreetAddressRepository>();
+
+        
 
 
         return services;
