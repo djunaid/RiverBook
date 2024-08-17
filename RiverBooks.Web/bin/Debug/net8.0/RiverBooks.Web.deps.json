@@ -15,6 +15,7 @@
           "Microsoft.AspNetCore.OpenApi": "8.0.4",
           "Microsoft.EntityFrameworkCore.Design": "8.0.6",
           "RiverBooks.Books": "1.0.0",
+          "RiverBooks.EmailSending": "1.0.0",
           "RiverBooks.OrderProcessing": "1.0.0",
           "RiverBooks.Users": "1.0.0",
           "Serilog.AspNetCore": "8.0.1",
@@ -37,6 +38,37 @@
           "lib/net8.0/Ardalis.Result.dll": {
             "assemblyVersion": "9.1.0.0",
             "fileVersion": "9.1.0.0"
+          }
+        }
+      },
+      "Ardalis.Result.AspNetCore/9.1.0": {
+        "dependencies": {
+          "Ardalis.Result": "9.1.0"
+        },
+        "runtime": {
+          "lib/net8.0/Ardalis.Result.AspNetCore.dll": {
+            "assemblyVersion": "9.1.0.0",
+            "fileVersion": "9.1.0.0"
+          }
+        }
+      },
+      "Ardalis.Result.FluentValidation/9.1.0": {
+        "dependencies": {
+          "Ardalis.Result": "9.1.0",
+          "FluentValidation": "11.9.2"
+        },
+        "runtime": {
+          "lib/net8.0/Ardalis.Result.FluentValidation.dll": {
+            "assemblyVersion": "9.1.0.0",
+            "fileVersion": "9.1.0.0"
+          }
+        }
+      },
+      "BouncyCastle.Cryptography/2.4.0": {
+        "runtime": {
+          "lib/net6.0/BouncyCastle.Cryptography.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.4.0.33771"
           }
         }
       },
@@ -118,6 +150,18 @@
           "lib/net6.0/Humanizer.dll": {
             "assemblyVersion": "2.14.0.0",
             "fileVersion": "2.14.1.48190"
+          }
+        }
+      },
+      "MailKit/4.7.1.1": {
+        "dependencies": {
+          "MimeKit": "4.7.1",
+          "System.Formats.Asn1": "8.0.1"
+        },
+        "runtime": {
+          "lib/net8.0/MailKit.dll": {
+            "assemblyVersion": "4.7.0.0",
+            "fileVersion": "4.7.1.1"
           }
         }
       },
@@ -845,6 +889,19 @@
           "System.Security.Principal.Windows": "4.5.0"
         }
       },
+      "MimeKit/4.7.1": {
+        "dependencies": {
+          "BouncyCastle.Cryptography": "2.4.0",
+          "System.Formats.Asn1": "8.0.1",
+          "System.Security.Cryptography.Pkcs": "8.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/MimeKit.dll": {
+            "assemblyVersion": "4.7.0.0",
+            "fileVersion": "4.7.1.0"
+          }
+        }
+      },
       "Mono.TextTemplating/2.2.1": {
         "dependencies": {
           "System.CodeDom": "4.4.0"
@@ -1453,6 +1510,14 @@
           "System.Threading": "4.3.0"
         }
       },
+      "System.Formats.Asn1/8.0.1": {
+        "runtime": {
+          "lib/net8.0/System.Formats.Asn1.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.724.31311"
+          }
+        }
+      },
       "System.Globalization/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "2.0.0",
@@ -1778,7 +1843,21 @@
           "runtime.native.System.Security.Cryptography.OpenSsl": "4.3.0"
         }
       },
-      "System.Security.Cryptography.Cng/4.5.0": {},
+      "System.Security.Cryptography.Cng/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.0.0",
+          "System.IO": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Runtime.Handles": "4.3.0",
+          "System.Runtime.InteropServices": "4.3.0",
+          "System.Security.Cryptography.Algorithms": "4.3.0",
+          "System.Security.Cryptography.Encoding": "4.3.0",
+          "System.Security.Cryptography.Primitives": "4.3.0",
+          "System.Text.Encoding": "4.3.0"
+        }
+      },
       "System.Security.Cryptography.Csp/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "2.0.0",
@@ -1829,9 +1908,9 @@
           "runtime.native.System.Security.Cryptography.OpenSsl": "4.3.0"
         }
       },
-      "System.Security.Cryptography.Pkcs/4.5.0": {
+      "System.Security.Cryptography.Pkcs/8.0.0": {
         "dependencies": {
-          "System.Security.Cryptography.Cng": "4.5.0"
+          "System.Formats.Asn1": "8.0.1"
         }
       },
       "System.Security.Cryptography.Primitives/4.3.0": {
@@ -1862,7 +1941,7 @@
           "System.Runtime.InteropServices": "4.3.0",
           "System.Runtime.Numerics": "4.3.0",
           "System.Security.Cryptography.Algorithms": "4.3.0",
-          "System.Security.Cryptography.Cng": "4.5.0",
+          "System.Security.Cryptography.Cng": "4.3.0",
           "System.Security.Cryptography.Csp": "4.3.0",
           "System.Security.Cryptography.Encoding": "4.3.0",
           "System.Security.Cryptography.OpenSsl": "4.3.0",
@@ -1876,7 +1955,7 @@
       },
       "System.Security.Cryptography.Xml/4.5.0": {
         "dependencies": {
-          "System.Security.Cryptography.Pkcs": "4.5.0",
+          "System.Security.Cryptography.Pkcs": "8.0.0",
           "System.Security.Permissions": "4.5.0"
         }
       },
@@ -2024,6 +2103,37 @@
           "RiverBooks.Books.Contracts.dll": {}
         }
       },
+      "RiverBooks.EmailSending/1.0.0": {
+        "dependencies": {
+          "Ardalis.GuardClauses": "4.6.0",
+          "Ardalis.Result": "9.1.0",
+          "FastEndpoints": "5.27.0",
+          "MailKit": "4.7.1.1",
+          "MediatR": "12.2.0",
+          "Microsoft.EntityFrameworkCore": "8.0.7",
+          "Microsoft.EntityFrameworkCore.Relational": "8.0.7",
+          "Microsoft.Extensions.Configuration": "8.0.0",
+          "Microsoft.Extensions.DependencyInjection": "8.0.0",
+          "MimeKit": "4.7.1",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.4",
+          "Npgsql.EntityFrameworkCore.PostgreSQL.Design": "1.1.0",
+          "RiverBooks.EmailSending.Contracts": "1.0.0",
+          "Serilog.AspNetCore": "8.0.1",
+          "StackExchange.Redis": "2.8.0"
+        },
+        "runtime": {
+          "RiverBooks.EmailSending.dll": {}
+        }
+      },
+      "RiverBooks.EmailSending.Contracts/1.0.0": {
+        "dependencies": {
+          "Ardalis.Result": "9.1.0",
+          "MediatR": "12.2.0"
+        },
+        "runtime": {
+          "RiverBooks.EmailSending.Contracts.dll": {}
+        }
+      },
       "RiverBooks.OrderProcessing/1.0.0": {
         "dependencies": {
           "Ardalis.GuardClauses": "4.6.0",
@@ -2040,7 +2150,9 @@
           "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.4",
           "Npgsql.EntityFrameworkCore.PostgreSQL.Design": "1.1.0",
           "RiverBooks.Books.Contracts": "1.0.0",
+          "RiverBooks.EmailSending.Contracts": "1.0.0",
           "RiverBooks.OrderProcessing.Contracts": "1.0.0",
+          "RiverBooks.SharedKernel": "1.0.0",
           "RiverBooks.Users.Contracts": "1.0.0",
           "Serilog.AspNetCore": "8.0.1",
           "StackExchange.Redis": "2.8.0"
@@ -2061,6 +2173,8 @@
       "RiverBooks.SharedKernel/1.0.0": {
         "dependencies": {
           "Ardalis.GuardClauses": "4.6.0",
+          "Ardalis.Result": "9.1.0",
+          "Ardalis.Result.FluentValidation": "9.1.0",
           "FluentValidation.DependencyInjectionExtensions": "11.9.2",
           "MediatR": "12.2.0",
           "Microsoft.Extensions.Logging.Abstractions": "8.0.1"
@@ -2073,6 +2187,7 @@
         "dependencies": {
           "Ardalis.GuardClauses": "4.6.0",
           "Ardalis.Result": "9.1.0",
+          "Ardalis.Result.AspNetCore": "9.1.0",
           "FastEndpoints": "5.27.0",
           "FastEndpoints.Security": "5.27.0",
           "MediatR": "12.2.0",
@@ -2085,6 +2200,7 @@
           "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.4",
           "Npgsql.EntityFrameworkCore.PostgreSQL.Design": "1.1.0",
           "RiverBooks.Books.Contracts": "1.0.0",
+          "RiverBooks.EmailSending.Contracts": "1.0.0",
           "RiverBooks.OrderProcessing.Contracts": "1.0.0",
           "RiverBooks.SharedKernel": "1.0.0",
           "RiverBooks.Users.Contracts": "1.0.0",
@@ -2124,6 +2240,27 @@
       "sha512": "sha512-+gr5+vCUmFkmAyQgHQ2Ja0MdTVJW97L/M/6fgStDDhTB9DfS85ZZDo5WtI00bQUdy9/ccX5YRDKlWvw8En3WeA==",
       "path": "ardalis.result/9.1.0",
       "hashPath": "ardalis.result.9.1.0.nupkg.sha512"
+    },
+    "Ardalis.Result.AspNetCore/9.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3yb5XIY86M3Z54XnoDuSgmtBChcfSBQLbEGI0zSz+qpwIMZDU7SJ/ntSOgP7sCGT2SZf+nS8Y4fDcTO9hjmyXg==",
+      "path": "ardalis.result.aspnetcore/9.1.0",
+      "hashPath": "ardalis.result.aspnetcore.9.1.0.nupkg.sha512"
+    },
+    "Ardalis.Result.FluentValidation/9.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5ojP6P2/Y7h4yMypFmp8cqeYbk/7ym+uHYUS1ZbW3qLSF267tRzqjVKQjun8FPhh0QkX/rfiWckkkwU62rfK4w==",
+      "path": "ardalis.result.fluentvalidation/9.1.0",
+      "hashPath": "ardalis.result.fluentvalidation.9.1.0.nupkg.sha512"
+    },
+    "BouncyCastle.Cryptography/2.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SwXsAV3sMvAU/Nn31pbjhWurYSjJ+/giI/0n6tCrYoupEK34iIHCuk3STAd9fx8yudM85KkLSVdn951vTng/vQ==",
+      "path": "bouncycastle.cryptography/2.4.0",
+      "hashPath": "bouncycastle.cryptography.2.4.0.nupkg.sha512"
     },
     "FastEndpoints/5.27.0": {
       "type": "package",
@@ -2180,6 +2317,13 @@
       "sha512": "sha512-lQKvtaTDOXnoVJ20ibTuSIOf2i0uO0MPbDhd1jm238I+U/2ZnRENj0cktKZhtchBMtCUSRQ5v4xBCUbKNmyVMw==",
       "path": "humanizer.core/2.14.1",
       "hashPath": "humanizer.core.2.14.1.nupkg.sha512"
+    },
+    "MailKit/4.7.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Y3okmIxu8g/ZcoJiE2i+dCeKgnNyddsXmcJslZnCPGVPP0aRyeVINHV1h97V+OVMdqjQI6O12J2p8Duwq5UEqQ==",
+      "path": "mailkit/4.7.1.1",
+      "hashPath": "mailkit.4.7.1.1.nupkg.sha512"
     },
     "MediatR/12.2.0": {
       "type": "package",
@@ -2650,6 +2794,13 @@
       "path": "microsoft.win32.registry/4.5.0",
       "hashPath": "microsoft.win32.registry.4.5.0.nupkg.sha512"
     },
+    "MimeKit/4.7.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Qoj4aVvhX14A1FNvaJ33hzOP4VZI2j+Mr38I9wSGcjMq4BYDtWLJG89aJ9nRW2cNfH6Czjwyp7+Mh++xv3AZvg==",
+      "path": "mimekit/4.7.1",
+      "hashPath": "mimekit.4.7.1.nupkg.sha512"
+    },
     "Mono.TextTemplating/2.2.1": {
       "type": "package",
       "serviceable": true,
@@ -3112,6 +3263,13 @@
       "path": "system.dynamic.runtime/4.3.0",
       "hashPath": "system.dynamic.runtime.4.3.0.nupkg.sha512"
     },
+    "System.Formats.Asn1/8.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XqKba7Mm/koKSjKMfW82olQdmfbI5yqeoLV/tidRp7fbh5rmHAQ5raDI/7SU0swTzv+jgqtUGkzmFxuUg0it1A==",
+      "path": "system.formats.asn1/8.0.1",
+      "hashPath": "system.formats.asn1.8.0.1.nupkg.sha512"
+    },
     "System.Globalization/4.3.0": {
       "type": "package",
       "serviceable": true,
@@ -3350,12 +3508,12 @@
       "path": "system.security.cryptography.algorithms/4.3.0",
       "hashPath": "system.security.cryptography.algorithms.4.3.0.nupkg.sha512"
     },
-    "System.Security.Cryptography.Cng/4.5.0": {
+    "System.Security.Cryptography.Cng/4.3.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-WG3r7EyjUe9CMPFSs6bty5doUqT+q9pbI80hlNzo2SkPkZ4VTuZkGWjpp77JB8+uaL4DFPRdBsAY+DX3dBK92A==",
-      "path": "system.security.cryptography.cng/4.5.0",
-      "hashPath": "system.security.cryptography.cng.4.5.0.nupkg.sha512"
+      "sha512": "sha512-03idZOqFlsKRL4W+LuCpJ6dBYDUWReug6lZjBa3uJWnk5sPCUXckocevTaUA8iT/MFSrY/2HXkOt753xQ/cf8g==",
+      "path": "system.security.cryptography.cng/4.3.0",
+      "hashPath": "system.security.cryptography.cng.4.3.0.nupkg.sha512"
     },
     "System.Security.Cryptography.Csp/4.3.0": {
       "type": "package",
@@ -3378,12 +3536,12 @@
       "path": "system.security.cryptography.openssl/4.3.0",
       "hashPath": "system.security.cryptography.openssl.4.3.0.nupkg.sha512"
     },
-    "System.Security.Cryptography.Pkcs/4.5.0": {
+    "System.Security.Cryptography.Pkcs/8.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-TGQX51gxpY3K3I6LJlE2LAftVlIMqJf0cBGhz68Y89jjk3LJCB6SrwiD+YN1fkqemBvWGs+GjyMJukl6d6goyQ==",
-      "path": "system.security.cryptography.pkcs/4.5.0",
-      "hashPath": "system.security.cryptography.pkcs.4.5.0.nupkg.sha512"
+      "sha512": "sha512-ULmp3xoOwNYjOYp4JZ2NK/6NdTgiN1GQXzVVN1njQ7LOZ0d0B9vyMnhyqbIi9Qw4JXj1JgCsitkTShboHRx7Eg==",
+      "path": "system.security.cryptography.pkcs/8.0.0",
+      "hashPath": "system.security.cryptography.pkcs.8.0.0.nupkg.sha512"
     },
     "System.Security.Cryptography.Primitives/4.3.0": {
       "type": "package",
@@ -3524,6 +3682,16 @@
       "sha512": ""
     },
     "RiverBooks.Books.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RiverBooks.EmailSending/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RiverBooks.EmailSending.Contracts/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

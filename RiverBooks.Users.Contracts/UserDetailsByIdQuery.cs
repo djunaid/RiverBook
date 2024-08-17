@@ -6,8 +6,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RiverBooks.Users.UseCases.User
+namespace RiverBooks.Users.Contracts
 {
-    public record ListAddressesForUserQuery (string emailAddress) : IRequest<Result<List<UserStreetAddressDTO>>>;
-
+    public record UserDetailsByIdQuery(Guid UserId) : IRequest<Result<UserDetails>>;
+    
 }

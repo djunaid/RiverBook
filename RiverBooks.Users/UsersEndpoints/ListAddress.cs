@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Ardalis.Result;
 using RiverBooks.Users.UseCases.User;
+using RiverBooks.Users.UseCases.User.ListAddress;
 
 namespace RiverBooks.Users.UsersEndpoints
 {

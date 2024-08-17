@@ -24,6 +24,21 @@
           "lib/net8.0/Ardalis.Result.dll": {}
         }
       },
+      "Ardalis.Result.AspNetCore/9.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Ardalis.Result": "9.1.0"
+        },
+        "compile": {
+          "lib/net8.0/Ardalis.Result.AspNetCore.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Ardalis.Result.AspNetCore.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "Ardalis.Result.FluentValidation/9.1.0": {
         "type": "package",
         "dependencies": {
@@ -2694,6 +2709,20 @@
           "bin/placeholder/RiverBooks.Books.Contracts.dll": {}
         }
       },
+      "RiverBooks.EmailSending.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Ardalis.Result": "9.1.0",
+          "MediatR": "12.2.0"
+        },
+        "compile": {
+          "bin/placeholder/RiverBooks.EmailSending.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RiverBooks.EmailSending.Contracts.dll": {}
+        }
+      },
       "RiverBooks.OrderProcessing.Contracts/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -2780,6 +2809,21 @@
         "lib/net7.0/Ardalis.Result.dll",
         "lib/net8.0/Ardalis.Result.dll",
         "lib/netstandard2.0/Ardalis.Result.dll"
+      ]
+    },
+    "Ardalis.Result.AspNetCore/9.1.0": {
+      "sha512": "3yb5XIY86M3Z54XnoDuSgmtBChcfSBQLbEGI0zSz+qpwIMZDU7SJ/ntSOgP7sCGT2SZf+nS8Y4fDcTO9hjmyXg==",
+      "type": "package",
+      "path": "ardalis.result.aspnetcore/9.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ardalis.result.aspnetcore.9.1.0.nupkg.sha512",
+        "ardalis.result.aspnetcore.nuspec",
+        "icon.png",
+        "lib/net6.0/Ardalis.Result.AspNetCore.dll",
+        "lib/net7.0/Ardalis.Result.AspNetCore.dll",
+        "lib/net8.0/Ardalis.Result.AspNetCore.dll"
       ]
     },
     "Ardalis.Result.FluentValidation/9.1.0": {
@@ -7939,6 +7983,11 @@
       "path": "../RiverBooks.Books.Contracts/RiverBooks.Books.Contracts.csproj",
       "msbuildProject": "../RiverBooks.Books.Contracts/RiverBooks.Books.Contracts.csproj"
     },
+    "RiverBooks.EmailSending.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../RiverBooks.EmailSending.Contracts/RiverBooks.EmailSending.Contracts.csproj",
+      "msbuildProject": "../RiverBooks.EmailSending.Contracts/RiverBooks.EmailSending.Contracts.csproj"
+    },
     "RiverBooks.OrderProcessing.Contracts/1.0.0": {
       "type": "project",
       "path": "../RiverBooks.OrderProcessing.Contracts/RiverBooks.OrderProcessing.Contracts.csproj",
@@ -7959,6 +8008,7 @@
     "net8.0": [
       "Ardalis.GuardClauses >= 4.6.0",
       "Ardalis.Result >= 9.1.0",
+      "Ardalis.Result.AspNetCore >= 9.1.0",
       "FastEndpoints >= 5.27.0",
       "FastEndpoints.Security >= 5.21.0",
       "MediatR >= 12.2.0",
@@ -7971,6 +8021,7 @@
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 8.0.4",
       "Npgsql.EntityFrameworkCore.PostgreSQL.Design >= 1.1.0",
       "RiverBooks.Books.Contracts >= 1.0.0",
+      "RiverBooks.EmailSending.Contracts >= 1.0.0",
       "RiverBooks.OrderProcessing.Contracts >= 1.0.0",
       "RiverBooks.SharedKernel >= 1.0.0",
       "RiverBooks.Users.Contracts >= 1.0.0",
@@ -8007,6 +8058,9 @@
             "D:\\Project\\RiverBook\\RiverBooks.Books.Contracts\\RiverBooks.Books.Contracts.csproj": {
               "projectPath": "D:\\Project\\RiverBook\\RiverBooks.Books.Contracts\\RiverBooks.Books.Contracts.csproj"
             },
+            "D:\\Project\\RiverBook\\RiverBooks.EmailSending.Contracts\\RiverBooks.EmailSending.Contracts.csproj": {
+              "projectPath": "D:\\Project\\RiverBook\\RiverBooks.EmailSending.Contracts\\RiverBooks.EmailSending.Contracts.csproj"
+            },
             "D:\\Project\\RiverBook\\RiverBooks.OrderProcessing.Contracts\\RiverBooks.OrderProcessing.Contracts.csproj": {
               "projectPath": "D:\\Project\\RiverBook\\RiverBooks.OrderProcessing.Contracts\\RiverBooks.OrderProcessing.Contracts.csproj"
             },
@@ -8039,6 +8093,10 @@
             "version": "[4.6.0, )"
           },
           "Ardalis.Result": {
+            "target": "Package",
+            "version": "[9.1.0, )"
+          },
+          "Ardalis.Result.AspNetCore": {
             "target": "Package",
             "version": "[9.1.0, )"
           },

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RiverBooks.Users")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a894f349682ad848aef8796be8449cd7c0857c7c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aeb65ec25e1a07eefb378172f9aa90a27a3b1278")]
 [assembly: System.Reflection.AssemblyProductAttribute("RiverBooks.Users")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RiverBooks.Users")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

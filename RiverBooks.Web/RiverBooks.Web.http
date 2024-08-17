@@ -41,9 +41,9 @@ Accept: application/json
 Content-Type: application/json
 
 {
-      "email" : "jack.michael@test.com",
+      "email" : "jack.michael4@test.com",
       "password" : "P@ssword1",
-      "fullname" : "Jack Michael"
+      "fullName" : "Jack Michael"
 }
 
 ###
@@ -58,7 +58,7 @@ Content-Type: application/json
 }
 
 ###
-@token = eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJFbWFpbEFkZHJlc3MiOiJkYW5pc2guanVuYWlkQHRlc3QuY29tIiwiaWF0IjoxNzIzNTgyMDc2LCJleHAiOjE3MjM1ODU2NzYsIm5iZiI6MTcyMzU4MjA3Nn0.PQxuMuq980NV2hQCfOILJa30Z6YsBA6IwzhiyuMUJRE
+@token = eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJFbWFpbEFkZHJlc3MiOiJkYW5pc2guanVuYWlkQHRlc3QuY29tIiwiaWF0IjoxNzIzODU0NjUwLCJleHAiOjE3MjM4NTgyNTAsIm5iZiI6MTcyMzg1NDY1MH0.rXHHkjL_TOmT4LUDXIUnkF8DN1jKRyvfVAu00Fn0k18
 
 
 ###
@@ -72,7 +72,7 @@ Authorization: Bearer {{token}}
 Content-Type: application/json
 
 {
-  "bookId" : "2219fac9-7fd0-46d9-9944-511660a9b764",
+  "bookId" : "e2c8eca2-9382-4fbc-88ea-d5a09cea4e94",
   "quantity" : 1
 }
 

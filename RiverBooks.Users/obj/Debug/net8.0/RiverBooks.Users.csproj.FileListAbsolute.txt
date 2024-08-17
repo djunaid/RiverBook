@@ -33,3 +33,5 @@ D:\Project\RiverBook\RiverBooks.Users\bin\Debug\net8.0\RiverBooks.Users.Contract
 D:\Project\RiverBook\RiverBooks.Users\bin\Debug\net8.0\RiverBooks.Users.Contracts.pdb
 D:\Project\RiverBook\RiverBooks.Users\bin\Debug\net8.0\RiverBooks.SharedKernel.dll
 D:\Project\RiverBook\RiverBooks.Users\bin\Debug\net8.0\RiverBooks.SharedKernel.pdb
+D:\Project\RiverBook\RiverBooks.Users\bin\Debug\net8.0\RiverBooks.EmailSending.Contracts.dll
+D:\Project\RiverBook\RiverBooks.Users\bin\Debug\net8.0\RiverBooks.EmailSending.Contracts.pdb

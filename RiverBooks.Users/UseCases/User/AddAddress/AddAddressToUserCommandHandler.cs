@@ -9,7 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RiverBooks.Users.UseCases.User
+namespace RiverBooks.Users.UseCases.User.AddAddress
 {
     internal class AddAddressToUserCommandHandler : IRequestHandler<AddAddressToUserCommand, Result>
     {
@@ -21,12 +21,12 @@ namespace RiverBooks.Users.UseCases.User
             _logger = logger;
         }
 
-        
+
         public async Task<Result> Handle(AddAddressToUserCommand request, CancellationToken cancellationToken)
         {
             var user = await _userRepository.GetUserWithAddressByEmailAsync(request.EmailAddress);
 
-            if(user is null)
+            if (user is null)
             {
                 return Result.Unauthorized();
             }

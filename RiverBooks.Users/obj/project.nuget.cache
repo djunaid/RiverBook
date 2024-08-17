@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "bsqWh2suZ/KNOc4DDWLXpjIzdiR+G46Cbfot5r5RfjelEs0O0mExXIhkKdNqyAJNI9njTQXniJ2EimGT2TCZ0Q==",
+  "dgSpecHash": "YnkfmEm7AVGTdl4dsw8NSGKavrJD4pkoSvSGF9rbv9ctdJtOItTX5sqdLcLU2MakAbGmH1ZX8Spg4enwKIkq5g==",
   "success": true,
   "projectFilePath": "D:\\Project\\RiverBook\\RiverBooks.Users\\RiverBooks.Users.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Danish\\.nuget\\packages\\ardalis.guardclauses\\4.6.0\\ardalis.guardclauses.4.6.0.nupkg.sha512",
     "C:\\Users\\Danish\\.nuget\\packages\\ardalis.result\\9.1.0\\ardalis.result.9.1.0.nupkg.sha512",
+    "C:\\Users\\Danish\\.nuget\\packages\\ardalis.result.aspnetcore\\9.1.0\\ardalis.result.aspnetcore.9.1.0.nupkg.sha512",
     "C:\\Users\\Danish\\.nuget\\packages\\ardalis.result.fluentvalidation\\9.1.0\\ardalis.result.fluentvalidation.9.1.0.nupkg.sha512",
     "C:\\Users\\Danish\\.nuget\\packages\\fastendpoints\\5.27.0\\fastendpoints.5.27.0.nupkg.sha512",
     "C:\\Users\\Danish\\.nuget\\packages\\fastendpoints.attributes\\5.27.0\\fastendpoints.attributes.5.27.0.nupkg.sha512",

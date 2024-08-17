@@ -330,3 +330,14 @@ D:\Project\RiverBook\RiverBooks.Web\bin\Debug\net8.0\Microsoft.Extensions.Depend
 D:\Project\RiverBook\RiverBooks.Web\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
 D:\Project\RiverBook\RiverBooks.Web\bin\Debug\net8.0\RiverBooks.SharedKernel.dll
 D:\Project\RiverBook\RiverBooks.Web\bin\Debug\net8.0\RiverBooks.SharedKernel.pdb
+D:\Project\RiverBook\RiverBooks.Web\bin\Debug\net8.0\Ardalis.Result.FluentValidation.dll
+D:\Project\RiverBook\RiverBooks.Web\bin\Debug\net8.0\RiverBooks.EmailSending.dll
+D:\Project\RiverBook\RiverBooks.Web\bin\Debug\net8.0\RiverBooks.EmailSending.pdb
+D:\Project\RiverBook\RiverBooks.Web\obj\Debug\net8.0\RiverBooks.Web.MvcApplicationPartsAssemblyInfo.cs
+D:\Project\RiverBook\RiverBooks.Web\bin\Debug\net8.0\Ardalis.Result.AspNetCore.dll
+D:\Project\RiverBook\RiverBooks.Web\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+D:\Project\RiverBook\RiverBooks.Web\bin\Debug\net8.0\MailKit.dll
+D:\Project\RiverBook\RiverBooks.Web\bin\Debug\net8.0\MimeKit.dll
+D:\Project\RiverBook\RiverBooks.Web\bin\Debug\net8.0\System.Formats.Asn1.dll
+D:\Project\RiverBook\RiverBooks.Web\bin\Debug\net8.0\RiverBooks.EmailSending.Contracts.dll
+D:\Project\RiverBook\RiverBooks.Web\bin\Debug\net8.0\RiverBooks.EmailSending.Contracts.pdb

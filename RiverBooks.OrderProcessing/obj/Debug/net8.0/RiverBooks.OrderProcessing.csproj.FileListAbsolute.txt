@@ -18,3 +18,7 @@ D:\Project\RiverBook\RiverBooks.OrderProcessing\bin\Debug\net8.0\RiverBooks.Orde
 D:\Project\RiverBook\RiverBooks.OrderProcessing\obj\Debug\net8.0\RiverBoo.DD0D5068.Up2Date
 D:\Project\RiverBook\RiverBooks.OrderProcessing\bin\Debug\net8.0\RiverBooks.Users.Contracts.dll
 D:\Project\RiverBook\RiverBooks.OrderProcessing\bin\Debug\net8.0\RiverBooks.Users.Contracts.pdb
+D:\Project\RiverBook\RiverBooks.OrderProcessing\bin\Debug\net8.0\RiverBooks.EmailSending.Contracts.dll
+D:\Project\RiverBook\RiverBooks.OrderProcessing\bin\Debug\net8.0\RiverBooks.SharedKernel.dll
+D:\Project\RiverBook\RiverBooks.OrderProcessing\bin\Debug\net8.0\RiverBooks.EmailSending.Contracts.pdb
+D:\Project\RiverBook\RiverBooks.OrderProcessing\bin\Debug\net8.0\RiverBooks.SharedKernel.pdb

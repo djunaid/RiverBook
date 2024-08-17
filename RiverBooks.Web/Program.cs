@@ -8,6 +8,7 @@ using System.Reflection;
 using RiverBooks.OrderProcessing;
 using RiverBooks.SharedKernel;
 using RiverBooks.Users.UseCases.Cart.AddItem;
+using RiverBooks.EmailSending;
 
 var logger = Log.Logger = new LoggerConfiguration()
         .Enrich.FromLogContext()
@@ -38,6 +39,7 @@ builder.Services.AddFastEndpoints()
 builder.Services.AddBookModuleService(builder.Configuration, logger, mediatRAssemblies);
 builder.Services.AddOrderProcessingModuleServices(builder.Configuration, logger, mediatRAssemblies);
 builder.Services.AddUserModuleServices(builder.Configuration, logger, mediatRAssemblies);
+builder.Services.AddEmailService(builder.Configuration, logger, mediatRAssemblies);
 
 builder.Services.AddMediatR(cfg => 
             cfg.RegisterServicesFromAssemblies(mediatRAssemblies.ToArray()));
