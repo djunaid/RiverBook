@@ -1,14 +1,15 @@
 # RiverBook
 
-Welcome to the **RiverBook** repository! RiverBook is an innovative project aimed at providing a seamless and interactive platform for users to explore, share, and manage information about rivers around the world. Built with scalability and user experience in mind, this project leverages modern technologies to deliver an engaging and functional application.
+Welcome to the **RiverBook** repository! RiverBook is an innovative project aimed at providing a seamless and interactive platform for users to explore, share, and manage information about books. Built with scalability and user experience in mind, this project leverages modern technologies to deliver an engaging and functional application.
 
 ## Features
 
-- **River Information Database**: A comprehensive database of rivers, including their history, geography, and ecology.
-- **User Contributions**: Allow users to contribute information, photos, and experiences about specific rivers.
-- **Interactive Maps**: Visualize river locations and associated data using interactive mapping tools.
-- **Community Engagement**: Create discussions, share updates, and connect with fellow enthusiasts.
-- **Search and Filter**: Easily find rivers based on name, region, or specific attributes.
+- **Book Database**: A comprehensive database of books, including their details, reviews, and categories.
+- **User Contributions**: Allow users to contribute reviews, ratings, and suggestions about specific books.
+- **Book Recommendations**: Personalized recommendations based on user preferences and reading history.
+- **Community Engagement**: Create discussions, share updates, and connect with fellow book enthusiasts.
+- **Search and Filter**: Easily find books based on title, author, genre, or specific attributes.
+- **Checkout Feature**: A streamlined process for users to add books to their cart, manage their selections, and complete purchases securely.
 
 ## Technology Stack
 
